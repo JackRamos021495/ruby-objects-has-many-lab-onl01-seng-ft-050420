@@ -5,7 +5,10 @@ def initialize(name)
   @name = name
 end
 
-def artist_name(artist = nil)
+def artist_name(artist)
+  if artist
   self.artist.name
+else
+  nil
 end
 end
