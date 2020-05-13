@@ -5,4 +5,7 @@ def initialize(title)
   @title = title
 end
 
+def self.new
+  
+end
 end
