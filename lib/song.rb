@@ -5,7 +5,7 @@ def initialize(name)
   @name = name
 end
 
-def artist_name(artist)
+def artist_name
   if artist
   self.artist.name
 else
