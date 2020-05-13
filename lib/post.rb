@@ -6,6 +6,6 @@ def initialize(title)
 end
 
 def self.new
-  
+
 end
 end
