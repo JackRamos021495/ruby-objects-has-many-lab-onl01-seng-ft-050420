@@ -6,6 +6,6 @@ def initialize(name)
 end
 
 def artist_name(artist = nil)
-  @artist
+  self.artist.name
 end
 end
