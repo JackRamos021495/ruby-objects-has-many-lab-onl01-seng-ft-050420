@@ -12,11 +12,9 @@ def self.all
 end
 
 def artist_name
-  if artist
-  self.artist.name
-else
-  nil
-end
+  if !self.artist
+  else self.artist.name
+  end
 end
 
 end
